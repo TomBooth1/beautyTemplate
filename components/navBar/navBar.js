@@ -1,21 +1,31 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../../styles/navBar.module.css";
 
-function NavBar() {
+
+export default function NavBar() {
   return (
-    <section className={styles.nav_container}>
-    
-      <Link className={styles.link_desktop} href="/">
-          <a className={styles.link_desktop}>About</a>
-        </Link>
-    
+    <section className={styles.navBar_container}>
+      <nav className={styles.navBar}>
         <Link href="/">
-          <img className={styles.nav_logo} src="/logo.png" alt="logo" />
+         
+        About
+          
         </Link>
-      
+        <div className={styles.links}>
+          <Link href="/#shop">
+           Training
+          </Link>
+          <Link href="/contact">
+            Services
+          </Link>
+          <Link href="/basket">
+            <img src='/logo.png' alt='logo'/>
+          </Link>
+        </div>
+      </nav>
+
+     
     </section>
   );
 }
-
-export default NavBar()
