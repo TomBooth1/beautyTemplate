@@ -1,0 +1,17 @@
+.nav_container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: blue;
+}
+
+.link_desktop{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav_logo{
+    height: 100%;
+}
