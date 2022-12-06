@@ -1,0 +1,8 @@
+.carousel_container{
+    width: 100vw;
+    height: 60vw;
+    background-color: var(--scrolled_nav_background_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

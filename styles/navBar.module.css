@@ -3,19 +3,18 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Bitter', serif;
-    background-color: #F6F6F6;
-    color: #606060;
+    font-family: Colgent, serif;
+    background-color: transparent;
+    color: #f1f1f1;
     /* height: 10vh; */
     /* border-bottom: 2px solid #606060; */
-    width: 90vw;
+    width: 50vw;
 }
 
 .logo{
-    display: flex;
-    align-items: baseline;
-    margin: 0;
-    text-decoration: none;
+    padding-top: 0.5vh;
+   height: 14vh;
+
 }
 
 .logo:visited{
@@ -27,67 +26,71 @@
     cursor: pointer;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
 
+.logo_scrolled{
+    height: 8vh;
 }
+
+.logo_scrolled:visited{
+    color: var(--secondary);
+}
+.logo_scrolled:hover{
+    transform: scale(1.02);
+    transition: transform 400ms;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
 .link:hover{
     transform: scale(1.05);
     transition: transform 400ms;
     cursor: pointer;
+    color: var(--tertiary);
 
 }
 
-.link{
-    margin: 0;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    text-decoration: none;
-    color: var(--secondary);
-    font-size: 1.5rem;
-    font-weight: 300;
-}
+
 .link:visited{
-    color: var(--secondary);
+    color: var(--primary);
 }
 
-.h1{
-    font-size: 3.2rem;
-    font-weight: 100;
-    align-items: center;
-    margin: 0;
-    margin-right: 0.5rem;
+.link_scrolled{
     text-decoration: none;
-}
-.h1:visited{
-    color: var(--secondary);
+    color: var(--primary);
+    font-size: 0.6rem;
+    font-weight: 200;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+.link_scrolled:hover{
+    transform: scale(1.05);
+    transition: transform 400ms;
+    cursor: pointer;
+    color: var(--tertiary);
+
 }
 
 
-
-.h2{
-    font-size: 2.3rem;
-    font-weight: 100;
-    align-items: center;
-    margin: 0;
-    text-decoration: none;
-
+.link_scrolled:visited{
+    color: var(--primary);
 }
-.h2:visited{
-    color: var(--secondary);
-}
+
 
 
 .navBar_container{
-    padding-top: 0.5rem;
-    background-color: #F6F6F6;
+    
     width: 100vw;
+    height: 15vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: sticky;
     position: -webkit-sticky;
     position: -moz-sticky;
@@ -95,4 +98,24 @@
     position: -ms-sticky;
     top: 0;
     z-index: 6;
+
+}
+
+.navBar_container_scrolled{
+    background-color: var(--scrolled_nav_background_color_77_o);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
+    top: 0;
+    z-index: 6;
+    
+
 }

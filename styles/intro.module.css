@@ -1,0 +1,31 @@
+.intro_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+.div_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+.intro_text_container{
+    color: var(--scrolled_nav_background_color);
+    max-width: 40vw;
+}
+.intro_image{
+    height: 30vh;
+    margin-left: 5vw;
+}
+
+.intro_heading{
+    margin-bottom: 0px;
+    font-family: Colgent, serif;
+    font-size: 2.5rem;
+}
+
+.intro_text{
+    font-size: 1.2rem;
+}

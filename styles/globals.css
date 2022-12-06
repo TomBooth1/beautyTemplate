@@ -14,4 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+:root{
+  --scrolled_nav_background_color: #0a041f;
+  --scrolled_nav_background_color_77_o:#0a041fc4;
+  margin: 0;
+  padding: 0;
+  --primary: #f1f1f1;
+  --primary_77_o:#f1f1f1c4;
+  --secondary: #A8DADC;
+  --secondary_77_o:#18b6d7c4;
+  --tertiary: #F1C539;
+  --tertiary_77_o: #F1C539c4;
+}
 

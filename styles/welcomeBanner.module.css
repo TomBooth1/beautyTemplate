@@ -1,0 +1,52 @@
+.welcome_container{
+    margin-top: -20vh;
+    height: 110vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.welcome_h_container{
+    font-family: Colgent, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-image: url("/welcome_4.png");
+    background-size:cover;
+    width: 100vw;
+    height: 110vh;
+    min-height: 900px;
+    overflow: hidden;
+    
+    
+}
+
+.welcome_text{
+    position: absolute;
+    width: 75vw;
+    font-size: 4.9rem;
+    font-weight: bold;
+    color: var(--secondary);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    ;
+    
+}
+
+.tag_line{
+    display: flex;
+    align-items: flex-end;
+    height: 90vh;
+    color: var(--primary);
+    font-size: 1.4rem;
+    font-weight:200;
+    font-family: Colgent, serif;
+    /* margin-top: 90vh; */
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+}
