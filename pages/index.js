@@ -3,6 +3,7 @@ import Image from "next/image";
 import ServicesCarousel from "../components/homeServicesCarousel/servicesCarousel.js";
 import Intro from "../components/intro/intro.js";
 import NavBar from "../components/navBar/NavBar";
+import Practitioners from "../components/practitioners/practitioners.js";
 import WelcomeBanner from "../components/welcomeBanner/welcomeBanner";
 import styles from "../styles/Home.module.css";
 
@@ -23,6 +24,7 @@ export default function Home() {
         <WelcomeBanner />
         <Intro />
         <ServicesCarousel/>
+        <Practitioners/>
       </main>
     </div>
   );

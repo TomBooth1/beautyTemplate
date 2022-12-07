@@ -15,6 +15,7 @@ a {
   box-sizing: border-box;
 }
 :root{
+  --font: Colgent, serif;
   --scrolled_nav_background_color: #0a041f;
   --scrolled_nav_background_color_77_o:#0a041fc4;
   margin: 0;

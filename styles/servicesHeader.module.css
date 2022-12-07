@@ -1,0 +1,33 @@
+.img_con{
+    margin-top: -22vh;
+    height: 70vh;
+    overflow: hidden;
+    /* background-image: url('/templeFillers.png'); */
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.main_img{
+    width: 100vw;
+    filter: brightness(60%);
+    
+}
+ .title{
+     color: var(--primary);
+     font-family: var(--font);
+     font-weight: 800;
+     margin-top: -72vw;
+     margin-left: 10vw;
+     font-size: 5.5vw;
+     z-index: 9;
+     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+ }
+ 
+ .img_filter{
+    filter: brightness(0.6);
+
+ }

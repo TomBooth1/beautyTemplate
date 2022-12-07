@@ -1,0 +1,9 @@
+.prac_con{
+    height: 90vh;
+    width: 100vw;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
