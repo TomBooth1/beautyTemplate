@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    color: var(--primary);
+    color: var(--secondary);
     margin-right: 5px;
 }
 
@@ -52,12 +52,12 @@
 .reviews_text{
     width: 100%;
     margin: 5px 0px;
-    color: var(--secondary);
+    color: var(--primary);
 
 }
 
 .reviews_name{
     width: 100%;
     margin: 5px 0px;
-    color: var(--primary);
+    color: var(--secondary);
 }
