@@ -1,0 +1,47 @@
+.training_con{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px;
+}
+.all_training_con{
+    width: 100%;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: repeat(4fr);
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   justify-self: center;
+}
+
+.training_title{
+    font-family: var(--font);
+    font-size: 2.5rem;
+    /* color: var(--scrolled_nav_background_color); */
+    
+}
+
+.training_card{
+    background-color: var(--scrolled_nav_background_color);
+    padding: 20px 15px;
+    height: 100%;
+}
+
+.training_card_title{
+    font-family: var(--font);
+    color: var(--primary);
+    font-size: 2rem;
+    margin: 10px 5px;
+}
+
+.training_price{
+    font-family: var(--font);
+    color: var(--secondary);
+    font-size: 1.3rem;
+    margin: 0px 10px;
+}
+
+.training_card_desc{
+    color: var(--primary);
+    font-size: 0.9rem;
+}

@@ -78,7 +78,7 @@
 
   .gradient{
     margin-top: -15rem;
-    background: linear-gradient(180deg, transparent, #0a041fc4 );
+    background: linear-gradient(180deg, transparent, var(--scrolled_nav_background_color));
     margin-bottom: 0px;
     opacity: 0;
     transition: opacity 0.5s linear;
