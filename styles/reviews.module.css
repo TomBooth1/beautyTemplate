@@ -1,4 +1,4 @@
-.about_clinics_con{
+.reviews_con{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,30 +24,40 @@
 
 .text_con{
     width:40vw;
-    margin-left: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     color: var(--primary);
+    margin-right: 5px;
 }
 
-.clinics_text_title{
+.review_text_title{
   font-family: var(--font);
-    text-align: center;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0px;
     margin-bottom: 10px;
-   text-align:end ;
-   margin-right: 7vw;
+    color: var(--tertiary);
 }
-.clinics_text_div{
+.reviews_text_div{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    text-align: center;
     margin: 0px;
     margin-bottom: 40px;
+    color: var(--primary);
+}
+
+.reviews_text{
+    width: 100%;
+    margin: 5px 0px;
+    color: var(--secondary);
+
+}
+
+.reviews_name{
+    width: 100%;
+    margin: 5px 0px;
     color: var(--primary);
 }

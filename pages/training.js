@@ -69,7 +69,7 @@ export default function ServicesPage() {
           </div>
 
           <div className={styles.training_card}>
-            <h1 className={styles.training_card_title}>Aqualyx</h1>
+            <h1 className={styles.training_card_title}>Aqualyx®</h1>
             <p className={styles.training_price}>£498.96</p>
             <p className={styles.training_card_desc}>
             Very popular fat dissolver which can be used on the stomach, flanks, arms, face and neck.

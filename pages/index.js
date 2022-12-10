@@ -4,6 +4,7 @@ import ServicesCarousel from "../components/homeServicesCarousel/servicesCarouse
 import Intro from "../components/intro/intro.js";
 import NavBar from "../components/navBar/NavBar";
 import Practitioners from "../components/practitioners/practitioners.js";
+import Reviews from "../components/reviews/reviews.js";
 import WelcomeBanner from "../components/welcomeBanner/welcomeBanner";
 import styles from "../styles/Home.module.css";
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Intro />
         <ServicesCarousel/>
         <Practitioners/>
+        <Reviews/>
       </main>
     </div>
   );
