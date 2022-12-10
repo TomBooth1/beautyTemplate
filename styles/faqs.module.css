@@ -1,1 +1,110 @@
+.faq_con{
+    margin-top: 40px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+    height: 100%;
+}
+.faq_title{
+    margin: 10px 0px;
+    font-family: var(--font);
+    font-size: 2.5rem;
+    font-weight: 400;
 
+}
+
+.btn{
+    background-color: transparent;
+    border: transparent;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #dedede;
+    width: 100%;
+    text-align: start;
+    /* transition: all .4s ease; */
+    font-weight: 600;
+    color: var(----scrolled_nav_background_color);
+}
+
+.btn:hover{
+    color: var(--tertiary);
+    cursor: pointer;
+    
+}
+
+.btn_con{
+    margin: 0px;
+    height: 43px;
+    /* transition: all .4s ease; */
+}
+
+.btn_active{
+    background-color: transparent;
+    border: transparent;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #dedede;
+    width: 100%;
+    text-align: start;
+    /* transition: all .4s ease; */
+    font-weight: 600;
+    color: var(--tertiary);
+    cursor: pointer;
+}
+
+.btn_active:hover{
+    color: var(----scrolled_nav_background_color);
+    transition: 0.6s smooth;
+    cursor: pointer;
+}
+
+
+
+.faq1_con{
+    border-top: 1px solid #dedede;
+visibility: hidden;
+height: 0px;
+overflow: hidden;
+transition: all .4s ease;
+font-size: 1rem;
+}
+
+.faq1_con_expand{
+visibility: visible;
+/* height: 150px; */
+transition: visibility 0.9s smooth;
+}
+
+.answer_con_expand{
+    height: 100%;
+    color: var(----scrolled_nav_background_color);
+
+    /* transition: all .4s ease; */
+
+}
+
+
+.answer_con{
+height:0;
+overflow: hidden;
+color: var(----scrolled_nav_background_color);
+
+/* transition: all .4s ease; */
+
+}
+
+.answer{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(----scrolled_nav_background_color);
+    margin-left: 5px;
+    margin-top: 0px;
+
+}

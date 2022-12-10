@@ -11,7 +11,7 @@ export default function NavBar() {
       setclientWindowHeight(window.scrollY);
     };
     window.addEventListener(window.scrollY, handleScroll());
-  }, [clientWindowHeight]);
+  },[] );
 
   console.log(clientWindowHeight);
 

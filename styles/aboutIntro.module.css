@@ -1,0 +1,26 @@
+.about_intro_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:50vh;
+    margin: 50px 0px;
+}
+
+.img_con{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+
+.clinic_img{
+    height:30vh;
+    margin: 0 5px;
+    width: 50vw;
+}
+
+.desc_con{
+    width:40vw;
+    margin-left: 40px;
+}
