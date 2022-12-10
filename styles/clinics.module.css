@@ -1,0 +1,55 @@
+.clinics_con{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 125px;
+}
+.img_frame{
+    z-index: 2;
+    overflow: hidden;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_img{
+height:100%;
+
+}
+
+.all_clinics_con{
+    width: 100%;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: repeat(4fr);
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   justify-self: center;
+}
+
+.clinics_title{
+    font-family: var(--font);
+    font-size: 2.5rem;
+    /* color: var(--scrolled_nav_background_color); */
+    
+}
+
+.clinics_card{
+    background-color: var(--scrolled_nav_background_color);
+    padding: 20px 15px;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.clinics_card_title{
+    font-family: var(--font);
+    color: var(--primary);
+    font-size: 2rem;
+    margin: 10px 5px;
+}
+
+.address{
+    color: var(--primary);
+    font-size: 0.9rem;
+margin: 5px 5px;}

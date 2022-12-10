@@ -8,7 +8,7 @@ export default function ServicesPage() {
   return (
     <section>
       <Head>
-        <title>Services - RI Aesthetics</title>
+        <title>Training Courses - RI Aesthetics</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/logo1.png" />
       </Head>
