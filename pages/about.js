@@ -4,6 +4,7 @@ import PageHeader from "../components/pageHeader/pageHeader";
 import styles from "../styles/about.module.css";
 import Head from "next/head";
 import AboutIntro from "../components/about/aboutIntro";
+import AboutClinics from "../components/about/aboutClinics";
 
 export default function About() {
   return (
@@ -18,6 +19,7 @@ export default function About() {
       <PageHeader title="About" src="/welcome_4.png" />
 
       <AboutIntro/>
+      <AboutClinics/>
 
     </section>
   );

@@ -59,11 +59,11 @@
     cursor: pointer;
 }
 
-.btn_active:hover{
+/* .btn_active:hover{
     color: var(----scrolled_nav_background_color);
     transition: 0.6s smooth;
     cursor: pointer;
-}
+} */
 
 
 

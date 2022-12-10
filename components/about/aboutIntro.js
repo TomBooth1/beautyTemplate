@@ -17,6 +17,8 @@ export default function AboutIntro() {
         />
       </div>
       <div className={styles.desc_con}>
+      <p className={styles.about_text_title}>Who are we?</p>
+
         <p className={styles.about_text}>
           3 years in the Aesthetics Industry have seen RI Aesthetics starting
           with a practice in Leamington Spa and quickly expanding to Birmingham,

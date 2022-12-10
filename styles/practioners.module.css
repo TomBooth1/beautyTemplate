@@ -6,4 +6,5 @@
     flex-direction: row;
     align-items: center;
     justify-content:center;
+    color: var(--scrolled_nav_background_color);
 }
