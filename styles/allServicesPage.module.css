@@ -1,0 +1,15 @@
+.all_services_con{
+    padding: 100px;
+    width: 100vw;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: repeat(4fr);
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   justify-self: center;
+}
+
+.card{
+    justify-self: center;
+}
