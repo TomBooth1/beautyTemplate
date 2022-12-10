@@ -50,7 +50,7 @@ export default function ServicesPage() {
 
           <div className={styles.clinics_card}>
           <div className={styles.img_frame}>
-          <img className={styles.card_img} src='/clinic4.png' alt='Birmingham Clinic Interior'/> 
+          <img className={styles.card_img} src='/clinic3.png' alt='Birmingham Clinic Interior'/> 
           </div>           
           <h1 className={styles.clinics_card_title}>Wakefield Clinic</h1>
             <p className={styles.address}>13-15 Silver Street, Wakefield, West Yorkshire, WF1 1UY</p>

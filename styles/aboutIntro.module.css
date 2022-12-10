@@ -6,19 +6,21 @@
     height:60vh;
     margin: 0px 0px;
     color: var(--scrolled_nav_background_color);
+    background-color: var(--primary);
 }
 
 .img_con{
     height: 50vh;
     width: 50vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    overflow: hidden;
 }
 
 .clinic_img{
     height:30vh;
     margin: 0 5px;
-    width: 50vw;
 }
 
 .desc_con{

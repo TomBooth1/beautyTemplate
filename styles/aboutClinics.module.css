@@ -11,14 +11,15 @@
 .img_con{
     height: 50vh;
     width: 50vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    overflow: hidden;
 }
 
 .clinic_img{
     height:30vh;
     margin: 0 5px;
-    width: 50vw;
 }
 
 .text_con{

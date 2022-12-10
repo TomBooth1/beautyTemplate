@@ -8,6 +8,8 @@
    align-items: center;
    justify-content: center;
    justify-self: center;
+   background-color: var(--primary);
+
 }
 
 .card{
