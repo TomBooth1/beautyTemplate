@@ -10,35 +10,39 @@
     /* border-bottom: 2px solid #606060; */
     width: 50vw;
     z-index: 50;
+    transition: all 0.6s;
 }
 
 .logo{
     padding-top: 0.5vh;
    height: 14vh;
-
+   transition: all 0.4s;
 }
 
 .logo:visited{
     color: var(--secondary);
+    transition: all 0.4s;
 }
 .logo:hover{
-    transform: scale(1.02);
-    transition: transform 400ms;
+    transition: all 0.4s;
+    transform: scale(1.04);
     cursor: pointer;
 }
 
 
 .logo_scrolled{
+    transition: all 0.4s;
     height: 8vh;
 }
 
 .logo_scrolled:visited{
     color: var(--secondary);
+    transition: all 0.4s;
 }
 .logo_scrolled:hover{
-    transform: scale(1.02);
-    transition: transform 400ms;
+    transform: scale(1.05);
     cursor: pointer;
+    transition: all 0.4s;
 }
 
 .link{
@@ -47,48 +51,52 @@
     font-size: 0.9rem;
     font-weight: 200;
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    }
+    transition: all 0.4s;    
+}
 
 .link:hover{
     transform: scale(1.05);
     transition: transform 400ms;
     cursor: pointer;
     color: var(--tertiary);
+    transition: all 0.4s;
 
 }
 
 
 .link:visited{
     color: var(--primary);
+    transition: all 0.4s;
 }
 
 .link_scrolled{
     text-decoration: none;
     color: var(--primary);
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 200;
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    }
+    transition: all 0.4s;    
+}
 
 .link_scrolled:hover{
-    transform: scale(1.05);
+    transform: scale(1.08);
     transition: transform 400ms;
     cursor: pointer;
     color: var(--tertiary);
-
+    transition: all 0.4s;
 }
 
 
 .link_scrolled:visited{
     color: var(--primary);
+    transition: all 0.4s;
 }
 
 
 
 .navBar_container{
-    
-    width: 100vw;
     height: 15vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,14 +108,15 @@
     top: 0;
     z-index: 50;
     /* background-color: var(--scrolled_nav_background_color_77_o); */
-
+    transition: all 0.4s;
+    margin: 0px;
 }
 
 .navBar_container_scrolled{
-    background-color: var(--scrolled_nav_background_color_77_o);
+    background-color: var(--scrolled_nav_background_color);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    width: 100vw;
     height: 10vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,5 +127,7 @@
     position: -ms-sticky;
     top: 0;
     z-index: 50;
-
+    transition: all 0.4s;
+    margin: 0px;
+    
 }

@@ -13,8 +13,7 @@ export default function ServicesPage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/logo1.png" />
       </Head>
-
-      <NavBar />
+<NavBar/>
 
       <PageHeader title="Pricelist" src="/welcome_4.png" />
 
@@ -46,7 +45,6 @@ export default function ServicesPage() {
         <p className={styles.pricelist_text}> Facial Contouring Packages available 3-6ML with discounts. <br/> This includes: Jaw, Chin, Lips, Cheeks and Nose. </p>
 
     </div>
-  
       </section>
     </section>
   );

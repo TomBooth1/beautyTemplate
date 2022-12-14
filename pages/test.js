@@ -3,6 +3,8 @@ import PageBooking from '../components/pageBooking/pageBooking'
 import Head from 'next/head'
 import AboutIntro from '../components/about/aboutIntro'
 import AboutClinics from '../components/about/aboutClinics'
+import TEST from '../components/clientWindowHeight'
+import ClientWindowHeight from '../components/clientWindowHeight'
 
 export default function text() {
   
@@ -15,6 +17,7 @@ export default function text() {
         <link rel="icon" href="/logo1.png" />
       </Head>
         <AboutClinics/>
+        <ClientWindowHeight/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 .all_services_con{
     padding: 100px;
-    width: 100vw;
+    margin: 0px;
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: repeat(4fr);

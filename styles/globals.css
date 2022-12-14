@@ -1,5 +1,9 @@
 html,
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
   transition: all 0.5s ease-in-out;
   padding: 0;
   margin: 0;
@@ -12,9 +16,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
+
+
 :root{
   --font: Colgent, serif;
   --scrolled_nav_background_color: #073238;

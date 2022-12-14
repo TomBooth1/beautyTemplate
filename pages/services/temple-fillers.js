@@ -114,7 +114,7 @@ faq4:
 
       <PageHeader title="Temple Fillers" src="/templeFillers.png" />
 
-      <PageMain questions={faq} />
+      <PageMain questions={faq} title='Temple Fillers' />
     </div>
   );
 }

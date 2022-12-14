@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from '../../styles/servicesPage.module.css'
+import BookingForm from '../contact/bookingForm'
+import ContactForm from '../contact/bookingForm'
 import Faqs from '../faqs/faqs'
 
 
-export default function PageMain({questions}) {
+export default function PageMain({questions, title}) {
 
 
   return (
@@ -26,7 +28,7 @@ export default function PageMain({questions}) {
         </div>
     </div>
     <div className={styles.book_con}>
-        <p>skdfghskhjdhfjksdhfhsdkhfsdjkfhjkdshfjdshfhsd</p>
+        <BookingForm title={title}/>
     </div>
     </div>
   )

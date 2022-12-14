@@ -1,24 +1,35 @@
+import { useState, useEffect } from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/navBar.module.css";
-import { useEffect, useState } from "react";
 
-export default function NavBar() {
-  const [clientWindowHeight, setclientWindowHeight] = useState(0);
+function useScrollPosition() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  function handleScroll() {
+    setScrollPosition(window.scrollY);
+  }
 
   useEffect(() => {
-    const handleScroll = () => {
-      setclientWindowHeight(window.scrollY);
-    };
-    window.addEventListener(window.scrollY, handleScroll());
-  },[] );
+    window.addEventListener('scroll', handleScroll);
 
-  console.log(clientWindowHeight);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return scrollPosition;
+}
+
+
+export default function NavBar() {
+  const scrollPosition = useScrollPosition();
 
   return (
+    
     <header
       className={
-        clientWindowHeight === 0
+        scrollPosition <= 10
           ? styles.navBar_container
           : styles.navBar_container_scrolled
       }
@@ -28,7 +39,7 @@ export default function NavBar() {
         <Link href="/about">
           <p
             className={
-              clientWindowHeight === 0 ? styles.link : styles.link_scrolled
+              scrollPosition <= 10 ? styles.link : styles.link_scrolled
             }
           >
             ABOUT
@@ -38,7 +49,7 @@ export default function NavBar() {
         <Link href="/training">
           <p
             className={
-              clientWindowHeight === 0 ? styles.link : styles.link_scrolled
+              scrollPosition <= 10 ? styles.link : styles.link_scrolled
             }
           >
             TRAINING
@@ -48,7 +59,7 @@ export default function NavBar() {
         <Link href="/services">
           <p
             className={
-              clientWindowHeight === 0 ? styles.link : styles.link_scrolled
+              scrollPosition <= 10 ? styles.link : styles.link_scrolled
             }
           >
             SERVICES
@@ -58,7 +69,7 @@ export default function NavBar() {
         <Link href="/">
           <img
             className={
-              clientWindowHeight === 0 ? styles.logo : styles.logo_scrolled
+              scrollPosition <= 10 ? styles.logo : styles.logo_scrolled
             }
             src="/logo1.png"
             alt="RI Aesthetics"
@@ -68,7 +79,7 @@ export default function NavBar() {
         <Link href="/clinics">
           <p
             className={
-              clientWindowHeight === 0 ? styles.link : styles.link_scrolled
+              scrollPosition <= 10 ? styles.link : styles.link_scrolled
             }
           >
             CLINICS
@@ -78,7 +89,7 @@ export default function NavBar() {
         <Link href="/pricelist">
           <p
             className={
-              clientWindowHeight === 0 ? styles.link : styles.link_scrolled
+              scrollPosition <= 10 ? styles.link : styles.link_scrolled
             }
           >
             PRICELIST
@@ -88,7 +99,7 @@ export default function NavBar() {
         <Link href="/contact">
           <p
             className={
-              clientWindowHeight === 0 ? styles.link : styles.link_scrolled
+              scrollPosition <= 10 ? styles.link : styles.link_scrolled
             }
           >
             CONTACT
@@ -98,4 +109,5 @@ export default function NavBar() {
       </nav>
     </header>
   );
+  
 }
