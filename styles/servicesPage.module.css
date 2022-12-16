@@ -43,3 +43,26 @@
     padding-right: 100px;
     padding-bottom: 60px;
 }
+
+@media screen and (max-width: 900px) {
+   
+.main_section{
+    flex-direction: column;
+
+}
+
+.desc_faq_con{
+    width: 90%;
+    padding: 10vh 0px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.book_con{
+    width: 100vw;
+    height: 100%;
+   margin: 0px;
+   padding: 0px;
+   
+}
+
+}

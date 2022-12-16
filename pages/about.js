@@ -5,11 +5,11 @@ import styles from "../styles/about.module.css";
 import Head from "next/head";
 import AboutIntro from "../components/about/aboutIntro";
 import AboutClinics from "../components/about/aboutClinics";
+import Footer from "../components/footer/footer";
 
 export default function About() {
   return (
     <section>
-
       <Head>
         <title>About - RI Aesthetics</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -18,9 +18,9 @@ export default function About() {
       <NavBar />
       <PageHeader title="About" src="/welcome_4.png" />
 
-      <AboutIntro/>
-      <AboutClinics/>
-
+      <AboutIntro />
+      <AboutClinics />
+      <Footer />
     </section>
   );
 }

@@ -1,0 +1,65 @@
+.footer_con{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--scrolled_nav_background_color);
+}
+
+.footer_content{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_con{
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+
+.logo{
+    height: 9vh;
+}
+
+.link{
+    margin-left: 3px;
+    transition: all 0.4s;
+    color: var(--primary);
+
+}
+
+.link:hover{
+    transition: all 0.4s;
+    color: var(--tertiary);
+    transform: scale(1.05);  
+}
+
+
+.right_con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+.socials_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icon{
+    height: 3vh;
+    transition: transform 0.4s;
+
+  }
+
+  .social_icon:hover{
+transform: scale(1.05); 
+transition: transform 0.4s;
+filter: brightness(0) saturate(100%) invert(92%) sepia(53%) saturate(7474%) hue-rotate(325deg) brightness(97%) contrast(94%);
+    
+}

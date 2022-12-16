@@ -5,6 +5,7 @@ import styles from "../../styles/navBar.module.css";
 
 function useScrollPosition() {
   const [scrollPosition, setScrollPosition] = useState(0);
+  
 
   function handleScroll() {
     setScrollPosition(window.scrollY);
@@ -22,8 +23,23 @@ function useScrollPosition() {
 }
 
 
+// const hamburger = document.querySelector(".hamburger")
+
+// const navMenu = document.querySelector(".nav_menu")
+
 export default function NavBar() {
   const scrollPosition = useScrollPosition();
+  const [isActive, setIsActive] = useState(false)
+  // hamburger.addEventListener( "click", () => {
+  //   hamburger.classList.toggle("active")
+  //   navMenu.classList.toggle("active")
+  // })
+
+  function hamburgerClick(){
+    setIsActive(current => !current)
+    console.log("CLICKED")
+    console.log(isActive)
+  }
 
   return (
     
@@ -35,7 +51,11 @@ export default function NavBar() {
       }
     >
       <nav className={styles.navBar}>
+<div className={isActive == true ? styles.nav_menu_active : styles.nav_menu}>
 
+<Link href="/"> 
+          
+        </Link>
         <Link href="/about">
           <p
             className={
@@ -65,7 +85,7 @@ export default function NavBar() {
             SERVICES
           </p>
         </Link>
-
+</div>
         <Link href="/">
           <img
             className={
@@ -75,7 +95,8 @@ export default function NavBar() {
             alt="RI Aesthetics"
           />
         </Link>
-
+        
+<div className={isActive == true ? styles.nav_menu_active : styles.nav_menu}>
         <Link href="/clinics">
           <p
             className={
@@ -105,7 +126,14 @@ export default function NavBar() {
             CONTACT
           </p>
         </Link>
-        
+</div>
+
+        <div className={ isActive ? styles.hamburger_active : styles.hamburger} onClick={hamburgerClick}>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </div>
+      
       </nav>
     </header>
   );

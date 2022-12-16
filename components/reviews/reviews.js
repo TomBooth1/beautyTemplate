@@ -7,7 +7,7 @@ export default function Reviews() {
       <div className={styles.text_con}>
         <p className={styles.review_text_title}>"Such an amazing experience! I’m very happy with my results,</p>
         <p className={styles.reviews_text}>
-        Kornelia is a true expert, friendly, professional and very passionate."
+        Renee is a true expert, friendly, professional and very passionate."
         </p>
         <p className={styles.reviews_name}>
         – Ivna Eterovic

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../components/footer/footer.js";
 import ServicesCarousel from "../components/homeServicesCarousel/servicesCarousel.js";
 import Intro from "../components/intro/intro.js";
 import NavBar from "../components/navBar/NavBar";
@@ -27,6 +28,7 @@ export default function Home() {
         <ServicesCarousel/>
         <Practitioners/>
         <Reviews/>
+        <Footer/>
       </main>
     </div>
   );

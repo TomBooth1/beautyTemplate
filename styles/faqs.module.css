@@ -1,7 +1,7 @@
 .faq_con{
     margin-top: 40px;
     border-bottom: 1px solid #dedede;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     height: 100%;
 }
 .faq_title{
@@ -18,7 +18,7 @@
     text-decoration: none;
     font-family: var(--font);
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #dedede;
@@ -37,7 +37,7 @@
 
 .btn_con{
     margin: 0px;
-    height: 43px;
+    /* height: 4vw; */
     /* transition: all .4s ease; */
 }
 
@@ -47,7 +47,7 @@
     text-decoration: none;
     font-family: var(--font);
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin:0px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #dedede;
@@ -106,5 +106,10 @@ color: var(----scrolled_nav_background_color);
     color: var(----scrolled_nav_background_color);
     margin-left: 5px;
     margin-top: 0px;
+
+}
+
+@media screen and (max-width: 900px) {
+    
 
 }

@@ -54,3 +54,35 @@ height:100%;
     color: var(--primary);
     font-size: 0.9rem;
 margin: 5px 5px;}
+
+
+
+@media screen and (max-width: 1480px) {
+    .all_clinics_con{
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+    .clinics_card_title{
+       
+        font-size: 1.6rem;
+    }
+    .address{
+        font-size: 0.9rem;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+    .all_clinics_con{
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .clinics_card_title{
+       
+        font-size: 1.3rem;
+        
+    }
+ .clinics_con{
+    padding: 75px 75px;
+
+ }
+}

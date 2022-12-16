@@ -5,7 +5,7 @@
     display: grid;
     gap: 10px;
     grid-auto-flow: column;
-    grid-auto-columns: 20%;
+    grid-auto-columns: 22%;
     overflow-y: auto; 
     overflow-x: auto;
     overscroll-behavior-inline: contain; 
@@ -15,3 +15,16 @@
 
 
 
+@media screen and (max-width: 1200px) {
+    .carousel_container{    
+        grid-auto-columns: 25%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel_container{    
+        grid-auto-columns: 30%;
+    }
+
+}

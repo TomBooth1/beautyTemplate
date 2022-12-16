@@ -5,6 +5,7 @@ import PageMain from "../../components/pageMain/pageMain";
 import styles from "../../styles/servicesPage.module.css";
 import Head from "next/head";
 import { useState, useEffect } from "react";
+import Footer from "../../components/footer/footer";
 
 export default function LoubJob() {
   const faq = {
@@ -84,7 +85,8 @@ export default function LoubJob() {
 
       <PageHeader title="Loub Job" src="/loub.png" />
 
-      <PageMain questions={faq} />
+      <PageMain questions={faq} title="Loub Job" />
+      <Footer />
     </div>
   );
 }

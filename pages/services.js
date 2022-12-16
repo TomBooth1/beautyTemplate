@@ -4,6 +4,7 @@ import NavBar from '../components/navBar/NavBar'
 import PageHeader from '../components/pageHeader/pageHeader'
 import styles from '../styles/allServicesPage.module.css'
 import CarouselCard from '../components/homeServicesCarousel/carouselCard'
+import Footer from '../components/footer/footer'
 
 export default function ServicesPage() {
   return (
@@ -226,7 +227,7 @@ export default function ServicesPage() {
       />
 
     </section>
-    
+    <Footer/>
     </section>
   )
 }

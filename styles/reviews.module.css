@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height:60vh;
+    /* height:60vh; */
     margin: 0px 0px;
     background-color: var(--scrolled_nav_background_color);
 }

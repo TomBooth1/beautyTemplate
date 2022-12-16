@@ -1,0 +1,12 @@
+.contact_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 6vh;
+    background-color: var(--primary);
+}
+
+

@@ -6,6 +6,7 @@ import styles from "../../styles/servicesPage.module.css";
 import Head from "next/head";
 
 import { useState, useEffect } from "react";
+import Footer from "../../components/footer/footer";
 
 
 export default function AntiWrinkle() {
@@ -127,7 +128,8 @@ faq4:
       title="Facial Anti-Wrinkle Treatments" 
       src="/antiWrinkle.png" />
 
-      <PageMain questions={faq} />
+      <PageMain questions={faq} title='Facial Anti-Wrinkle Treatments' />
+      <Footer/>
     </div>
   );
 }

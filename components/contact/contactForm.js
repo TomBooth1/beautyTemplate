@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import styles from '../../styles/bookingForm.module.css'
+import styles from '../../styles/contactForm.module.css'
 
 
 
-export default function BookingForm({title}) {
+export default function ContactForm() {
 
   
 
@@ -48,11 +48,13 @@ async function handleSubmit(e){
 };
 
   return (
-    <section className={styles.booking_form_con}> 
-    <h1 className={styles.booking_header}>Book Now!</h1>
+    <section className={styles.contact_form_con}> 
 
-    <div>
-      <form id='Form' className={styles.booking_form} method="post" onSubmit={handleSubmit} >
+    
+      <form id='Form' className={styles.contact_form} method="post" onSubmit={handleSubmit} >
+      {showFailureMessage ? <p className={styles.failuer_message}>Im afraid that didn't Work <br/> Please try again or call us on 07123 456 789</p> : null}
+        {showSuccessMessage ? <p className={styles.success_message}>Thank you for your message, we will get back to you as soon as possible.</p> : null}
+      <div className={styles.p_con}>
       <p className={styles.input_p}>
         <label className={styles.label} htmlFor="name">Full Name*</label>
         <input className={styles.input} type="text" name="name" required />
@@ -61,32 +63,27 @@ async function handleSubmit(e){
         <label className={styles.label} htmlFor="email">Email Address*</label>
         <input className={styles.input} type="email" name="email" required/>
       </p>
+      </div>
+      <div className={styles.p_con}>
       <p className={styles.input_p}>
-        <label className={styles.label} htmlFor="phone">Phone Number*</label>
-        <input className={styles.input} type="tel" name="phone" required />
+        <label className={styles.label} htmlFor="phone">Phone Number</label>
+        <input className={styles.input} type="tel" name="phone"  />
       </p>
       <p className={styles.input_p}>
-        <label className={styles.label} htmlFor="subject">Procedure</label>
-        <input className={styles.input} type="text" name="subject" defaultValue={title} required/>
+        <label className={styles.label} htmlFor="email">Subject*</label>
+        <input className={styles.input} type="text" name="subject" required/>
       </p>
+      </div>
       <p className={styles.input_p}>
-        <label className={styles.label} htmlFor="date">Date*</label>
-        <input className={styles.input} type="date" name="date" required/>
-      </p>
-      <p className={styles.input_p}>
-        <label className={styles.label} htmlFor="message">Message</label>
-        <textarea className={styles.input_area} name="message" />
+        <label className={styles.label} htmlFor="message">Message*</label>
+        <textarea className={styles.input_area} name="message" required />
         </p>
-        {showFailureMessage ? <p className={styles.failuer_message}>Im afraid that didn't Work <br/> Please try again or call us on 07123 456 789</p> : <p></p>}
-
-      {showSuccessMessage ? <p className={styles.success_message}>Thank You for your Booking! <br/> Keep an eye on your emails for confirmation.</p> : <p></p>}
-
-
-      <p className={styles.input_p_button}>
-        <button className={styles.button}>Book Now</button>
+        <p className={styles.input_p_button}>
+        <button className={styles.button}>Send Message</button>
       </p>
+       
       </form>
-    </div>
+    
     </section>
   )
 }

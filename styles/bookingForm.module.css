@@ -76,6 +76,7 @@
     font-family: var(--font);
     color: var(--primary);
     padding: 6px 20px;
+    transition: all 0.4s;
 
 }
 
@@ -90,4 +91,48 @@
     color: var(--tertiary);
     text-align: center;
     margin: 1vh;
+}
+
+@media screen and (max-width: 900px) {
+    .booking_form{
+        width: 95vw;
+    }
+
+    .label{
+      
+        font-size: 1.5rem;
+    }
+
+    .booking_header{
+        
+        font-size: 2.5rem;
+    
+    }
+
+    .booking_form_con{
+        z-index: 10;
+        background-color: var(--scrolled_nav_background_color);
+        
+        justify-content: center;
+        box-shadow: none
+    
+    }
+
+    .input_area{
+        
+        height: 15vh;
+
+        padding: 6px 10px;
+        
+    
+    
+    }
+
+    .button{
+      
+        font-size: 1.5rem;
+        
+    
+    }
+    
 }

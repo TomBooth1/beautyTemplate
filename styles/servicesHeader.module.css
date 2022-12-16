@@ -2,10 +2,11 @@
     margin-top: -200px;
     height: 70vh;
     overflow: hidden;
-    /* background-image: url('/templeFillers.png'); */
-    background-size: cover; 
     z-index: 9;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -13,7 +14,7 @@
     z-index: 1;
     margin: auto;
     min-width: 100%;
-    min-height: 100%;
+    /* min-height: 100%; */
     position: absolute;
     /* top:0;
     right:0;
@@ -32,7 +33,6 @@ filter: brightness(60%);
     top: 75%;
     left: 10%;
     right: 0;
-    font-size: 5rem;
     width: 50%;
     height: 5rem;
     padding: 0;
@@ -45,4 +45,13 @@ filter: brightness(60%);
 
  }
  
+
+
+ @media screen and (max-width: 1000px) {
+    .title{
+font-size: 5.5vw;
+    }
+
+
+}
  
