@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import NavBar from '../components/navBar/NavBar'
+import NavBar from "../../components/navBar/navBar";
 import PageHeader from '../components/pageHeader/pageHeader'
 import styles from '../styles/allServicesPage.module.css'
 import CarouselCard from '../components/homeServicesCarousel/carouselCard'

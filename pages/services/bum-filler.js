@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import NavBar from "../../components/navBar/NavBar";
+import NavBar from "../../components/navBar/navBar";
 import PageHeader from "../../components/pageHeader/pageHeader";
 import PageMain from "../../components/pageMain/pageMain";
 import styles from "../../styles/servicesPage.module.css";
