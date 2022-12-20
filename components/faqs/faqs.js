@@ -64,7 +64,7 @@ export default function Faqs({questions}) {
     
   return (
     <section className={styles.faq_con}>
-    <h1 className={styles.faq_title}>FAQ's</h1>
+    <h1 className={styles.faq_title}>FAQ`&apos;`s</h1>
 
 {questions.faq1.length > 0 ? <div className={isActive1 ? styles.btn_con_expand : styles.btn_con}>
 

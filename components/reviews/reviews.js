@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "../../styles/reviews.module.css";
+import Image from "next/image";
 
 export default function Reviews() {
   return (
     <section className={styles.reviews_con}>
       <div className={styles.text_con}>
-        <p className={styles.review_text_title}>"Such an amazing experience! I’m very happy with my results,</p>
+        <p className={styles.review_text_title}>`&ldquo;`Such an amazing experience! I’m very happy with my results,</p>
         <p className={styles.reviews_text}>
-        Renee is a true expert, friendly, professional and very passionate."
+        Renee is a true expert, friendly, professional and very passionate.`&ldquo;`
         </p>
         <p className={styles.reviews_name}>
         – Ivna Eterovic
@@ -16,13 +17,13 @@ export default function Reviews() {
 
       <div className={styles.img_con}>
 
-        <img
+        <Image
           className={styles.clinic_img}
           src="/clinic3.png"
           alt="Clinic Interior"
         />
 
-        <img
+        <Image
           className={styles.clinic_img}
           src="/clinic4.png"
           alt="Clinic Exterior"

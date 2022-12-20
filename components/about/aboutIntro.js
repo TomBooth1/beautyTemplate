@@ -1,16 +1,17 @@
 import React from "react";
 import styles from "../../styles/aboutIntro.module.css";
+import Image from "next/image";
 
 export default function AboutIntro() {
   return (
     <section className={styles.about_intro_con}>
       <div className={styles.img_con}>
-        <img
+        <Image
           className={styles.clinic_img}
           src="/clinic2.png"
           alt="Clinic Exterior"
         />
-        <img
+        <Image
           className={styles.clinic_img}
           src="/clinic1.png"
           alt="Clinic Interior"

@@ -23,7 +23,7 @@ export default function ServicesPage() {
         <div className={styles.all_clinics_con}>
           <div className={styles.clinics_card}>
             <div className={styles.img_frame}>
-              <img
+              <Image
                 className={styles.card_img}
                 src="/clinic1.png"
                 alt="Birmingham Clinic Interior"
@@ -37,7 +37,7 @@ export default function ServicesPage() {
 
           <div className={styles.clinics_card}>
             <div className={styles.img_frame}>
-              <img
+              <Image
                 className={styles.card_img}
                 src="/clinic4.png"
                 alt="Birmingham Clinic Interior"
@@ -51,7 +51,7 @@ export default function ServicesPage() {
 
           <div className={styles.clinics_card}>
             <div className={styles.img_frame}>
-              <img
+              <Image
                 className={styles.card_img}
                 src="/clinic2.png"
                 alt="Birmingham Clinic Interior"
@@ -65,7 +65,7 @@ export default function ServicesPage() {
 
           <div className={styles.clinics_card}>
             <div className={styles.img_frame}>
-              <img
+              <Image
                 className={styles.card_img}
                 src="/clinic3.png"
                 alt="Birmingham Clinic Interior"

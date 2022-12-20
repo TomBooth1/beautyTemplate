@@ -77,7 +77,7 @@ async function handleSubmit(e){
         <label className={styles.label} htmlFor="message">Message</label>
         <textarea className={styles.input_area} name="message" />
         </p>
-        {showFailureMessage ? <p className={styles.failuer_message}>Im afraid that didn't Work <br/> Please try again or call us on 07123 456 789</p> : <p></p>}
+        {showFailureMessage ? <p className={styles.failuer_message}>Im afraid that didn`&apos;`t Work <br/> Please try again or call us on 07123 456 789</p> : <p></p>}
 
       {showSuccessMessage ? <p className={styles.success_message}>Thank You for your Booking! <br/> Keep an eye on your emails for confirmation.</p> : <p></p>}
 

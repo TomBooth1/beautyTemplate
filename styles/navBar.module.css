@@ -184,7 +184,7 @@
 .nav_menu{
     position: fixed;
     left: 50%;
-    top: 10vh;
+    top: 20vh;
     gap: 0;
     flex-direction: column;
     background-color: var(--scrolled_nav_background_color);

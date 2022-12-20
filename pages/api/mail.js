@@ -41,8 +41,8 @@ export default function SendMail (req, res) {
 
 
 const data = {
-    to: 'thomas.alexander.booth@gmail.com',
-    from: 'tomboothprogramming@gmail.com' ,
+    to: 'process.env.TO_EMAIL',
+    from: 'process.env.FROM_EMAIL' ,
     subject:`[NEW ENQUIRY] Subject: ${body.subject} | Date: ${body.date}`,
     text: `${message}`,
     html: `${escapeHtml(message).replace(/\r\n/g, '<br/>')}`

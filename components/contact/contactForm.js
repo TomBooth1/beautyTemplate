@@ -52,7 +52,7 @@ async function handleSubmit(e){
 
     
       <form id='Form' className={styles.contact_form} method="post" onSubmit={handleSubmit} >
-      {showFailureMessage ? <p className={styles.failuer_message}>Im afraid that didn't Work <br/> Please try again or call us on 07123 456 789</p> : null}
+      {showFailureMessage ? <p className={styles.failuer_message}>Im afraid that didn`&apos;`t Work <br/> Please try again or call us on 07123 456 789</p> : null}
         {showSuccessMessage ? <p className={styles.success_message}>Thank you for your message, we will get back to you as soon as possible.</p> : null}
       <div className={styles.p_con}>
       <p className={styles.input_p}>

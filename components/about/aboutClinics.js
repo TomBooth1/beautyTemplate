@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/aboutClinics.module.css";
-
+import Image from "next/image";
 export default function AboutClinics() {
   return (
     <section className={styles.about_clinics_con}>
@@ -39,13 +39,13 @@ export default function AboutClinics() {
 
       <div className={styles.img_con}>
 
-        <img
+        <Image
           className={styles.clinic_img}
           src="/clinic3.png"
           alt="Clinic Interior"
         />
 
-        <img
+        <Image
           className={styles.clinic_img}
           src="/clinic4.png"
           alt="Clinic Exterior"

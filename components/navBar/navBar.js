@@ -87,7 +87,7 @@ export default function NavBar() {
         </Link>
 </div>
         <Link href="/">
-          <img
+          <Image
             className={
               scrollPosition <= 10 ? styles.logo : styles.logo_scrolled
             }
