@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer from "../components/footer/footer.js";
 import ServicesCarousel from "../components/homeServicesCarousel/servicesCarousel.js";
 import Intro from "../components/intro/intro.js";
-import NavBar from "../components/navBar/NavBar";
+import NavBar from "../components/navBar/navBar";
 import Practitioners from "../components/practitioners/practitioners.js";
 import Reviews from "../components/reviews/reviews.js";
 import WelcomeBanner from "../components/welcomeBanner/welcomeBanner";

@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "../components/contact/contactForm";
 import Footer from "../components/footer/footer";
-import NavBar from "../components/navBar/NavBar";
+import NavBar from "../components/navBar/navBar";
 import PageHeader from "../components/pageHeader/pageHeader";
 import styles from "../styles/contactPage.module.css";
 export default function Contact() {
