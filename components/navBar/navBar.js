@@ -23,17 +23,11 @@ function useScrollPosition() {
 }
 
 
-// const hamburger = document.querySelector(".hamburger")
-
-// const navMenu = document.querySelector(".nav_menu")
 
 export default function NavBar() {
   const scrollPosition = useScrollPosition();
   const [isActive, setIsActive] = useState(false)
-  // hamburger.addEventListener( "click", () => {
-  //   hamburger.classList.toggle("active")
-  //   navMenu.classList.toggle("active")
-  // })
+  
 
   function hamburgerClick(){
     setIsActive(current => !current)
@@ -45,7 +39,7 @@ export default function NavBar() {
     
     <header
       className={
-        scrollPosition <= 10
+        scrollPosition <= 0.00000000000000000000
           ? styles.navBar_container
           : styles.navBar_container_scrolled
       }
@@ -87,7 +81,7 @@ export default function NavBar() {
         </Link>
 </div>
         <Link href="/">
-          <Image
+          <img
             className={
               scrollPosition <= 10 ? styles.logo : styles.logo_scrolled
             }

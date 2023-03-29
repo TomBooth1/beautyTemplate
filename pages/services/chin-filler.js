@@ -42,7 +42,7 @@ export default function ChinFiller() {
 
     an3: "We work to enhance your natural features, not disguise them. So, yes, they will look and feel natural!",
 
-    an3_2:
+    
       "Whilst friends and family will notice that you are looking your best, they won’t be able to tell that you have had this procedure done. (Just a warning that they may start asking you for your workout plan!)",
 
     an3_3: "",

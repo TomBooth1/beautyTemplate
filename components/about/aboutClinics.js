@@ -39,13 +39,13 @@ export default function AboutClinics() {
 
       <div className={styles.img_con}>
 
-        <Image
+        <img
           className={styles.clinic_img}
           src="/clinic3.png"
           alt="Clinic Interior"
         />
 
-        <Image
+        <img
           className={styles.clinic_img}
           src="/clinic4.png"
           alt="Clinic Exterior"

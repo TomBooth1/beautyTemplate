@@ -16,7 +16,7 @@ export default function Intro() {
           Aesthetics 5 years ago, and have been transforming lives ever since.
         </p>
       </div>
-        <Image
+        <img
           className={styles.intro_image}
           src="/logo1.png"
           alt="RI Aesthetics"

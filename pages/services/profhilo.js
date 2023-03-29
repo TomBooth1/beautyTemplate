@@ -53,7 +53,7 @@ export default function AntiWrinkle() {
 
     an3_5: "",
 
-    an3_6: "c",
+    an3_6: "",
 
     // -------------------------------------------------
     faq4: "",

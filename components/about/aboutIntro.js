@@ -6,12 +6,12 @@ export default function AboutIntro() {
   return (
     <section className={styles.about_intro_con}>
       <div className={styles.img_con}>
-        <Image
+        <img
           className={styles.clinic_img}
           src="/clinic2.png"
           alt="Clinic Exterior"
         />
-        <Image
+        <img
           className={styles.clinic_img}
           src="/clinic1.png"
           alt="Clinic Interior"

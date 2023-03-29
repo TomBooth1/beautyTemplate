@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.footer_content}>
         <div className={styles.left_con}>
           <Link href="/">
-            <Image className={styles.logo} src="/logo1.png" alt="RI Aesthetics" />
+            <img className={styles.logo} src="/logo1.png" alt="RI Aesthetics" />
           </Link>
           <p>© 2022 RI Aesthetics. Website By</p>{" "}
           <Link target="_blank" href="https://firefromthebooth.netlify.app/">
@@ -30,7 +30,7 @@ export default function Footer() {
          
 
           <Link target="_blank" href="https://www.instagram.com/firefromthebooth">
-            <Image className={styles.social_icon} src="/insta-f1f1f1.png" alt="RI Aesthetics" />
+            <img className={styles.social_icon} src="/insta-f1f1f1.png" alt="RI Aesthetics"  />
           </Link>
           </div>
         </div>

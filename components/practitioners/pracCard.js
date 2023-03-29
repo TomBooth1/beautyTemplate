@@ -8,7 +8,7 @@ export default function PracCard(props) {
   return (
     <div className={styles.card_con}>
     <div className={styles.img_con}>
-        <Image className={styles.image} src={props.src} alt={props.alt} />
+        <img className={styles.image} src={props.src} alt={props.alt} />
         </div>
         <h1 className={styles.nme}>{props.nme}</h1>
         <p className={styles.desc}>{props.desc}</p>

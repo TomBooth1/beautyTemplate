@@ -6,9 +6,9 @@ export default function Reviews() {
   return (
     <section className={styles.reviews_con}>
       <div className={styles.text_con}>
-        <p className={styles.review_text_title}>`&ldquo;`Such an amazing experience! I’m very happy with my results,</p>
+        <p className={styles.review_text_title}>&ldquo;Such an amazing experience! I’m very happy with my results,</p>
         <p className={styles.reviews_text}>
-        Renee is a true expert, friendly, professional and very passionate.`&ldquo;`
+        Renee is a true expert, friendly, professional and very passionate.&ldquo;
         </p>
         <p className={styles.reviews_name}>
         – Ivna Eterovic
@@ -17,13 +17,13 @@ export default function Reviews() {
 
       <div className={styles.img_con}>
 
-        <Image
+        <img
           className={styles.clinic_img}
           src="/clinic3.png"
           alt="Clinic Interior"
         />
 
-        <Image
+        <img
           className={styles.clinic_img}
           src="/clinic4.png"
           alt="Clinic Exterior"

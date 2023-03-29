@@ -8,7 +8,7 @@ export default function CarouselCard(props) {
 
   return (
     <Link href={props.href} className={styles.card_container}>
-    <Image className={styles.card_image} src={props.src} alt={props.alt}/>
+    <img className={styles.card_image} src={props.src} alt={props.alt}/>
     <div className={styles.gradient}> <h1 className={styles.card_title}>{props.title}</h1>
     <p className={styles.card_description}>{props.desc}</p> </div>
 
