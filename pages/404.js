@@ -9,16 +9,19 @@ export default function FourOhFour() {
   return (
     <section className={styles.page_container}>
       <Head>
-        <title>About - RI Aesthetics</title>
+        <title>404 Page not found - RI Aesthetics</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/logo1.png" />
       </Head>
-      <PageHeader title="404 - Page not found." src="/templeFillers.png" />
+      <NavBar />
+      <PageHeader title="404 - Page not found." src="/welcome_4.png" />
       <div className={styles.body_}>
         <p className={styles.title}>
           It seems the page you are looking for doesn't exist.
         </p>
-          <Link className={styles.home} href="/">Go back home</Link>
+        <Link className={styles.home} href="/">
+          Go back home
+        </Link>
       </div>
       <Footer />
     </section>
