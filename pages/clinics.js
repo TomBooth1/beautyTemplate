@@ -5,6 +5,7 @@ import PageHeader from "../components/pageHeader/pageHeader";
 import styles from "../styles/clinics.module.css";
 import Image from "next/image";
 import Footer from "../components/footer/footer";
+import Link from "next/link";
 
 export default function ServicesPage() {
   return (
@@ -21,7 +22,11 @@ export default function ServicesPage() {
 
       <section className={styles.clinics_con}>
         <div className={styles.all_clinics_con}>
-          <div className={styles.clinics_card}>
+          <Link
+            href="https://goo.gl/maps/PHqgcMa9zh4QiPbM6"
+            target="_blank"
+            className={styles.clinics_card}
+          >
             <div className={styles.img_frame}>
               <img
                 className={styles.card_img}
@@ -33,9 +38,13 @@ export default function ServicesPage() {
             <p className={styles.address}>
               First House, Sutton street, Birmingham, B1 1PE
             </p>
-          </div>
+          </Link>
 
-          <div className={styles.clinics_card}>
+          <Link
+            href="https://goo.gl/maps/PHqgcMa9zh4QiPbM6"
+            target="_blank"
+            className={styles.clinics_card}
+          >
             <div className={styles.img_frame}>
               <img
                 className={styles.card_img}
@@ -47,9 +56,13 @@ export default function ServicesPage() {
             <p className={styles.address}>
               First House, Sutton street, Birmingham, B1 1PE
             </p>
-          </div>
+          </Link>
 
-          <div className={styles.clinics_card}>
+          <Link
+            href="https://goo.gl/maps/NRPKS1hkPZenSCTNA"
+            target="_blank"
+            className={styles.clinics_card}
+          >
             <div className={styles.img_frame}>
               <img
                 className={styles.card_img}
@@ -61,9 +74,13 @@ export default function ServicesPage() {
             <p className={styles.address}>
               36 regent st, Leamington spa, CV32 5EG
             </p>
-          </div>
+          </Link>
 
-          <div className={styles.clinics_card}>
+          <Link
+            href="https://goo.gl/maps/Ebd1ts9vT9cmxiGV9"
+            target="_blank"
+            className={styles.clinics_card}
+          >
             <div className={styles.img_frame}>
               <img
                 className={styles.card_img}
@@ -75,7 +92,7 @@ export default function ServicesPage() {
             <p className={styles.address}>
               13-15 Silver Street, Wakefield, West Yorkshire, WF1 1UY
             </p>
-          </div>
+          </Link>
         </div>
       </section>
       <Footer />
